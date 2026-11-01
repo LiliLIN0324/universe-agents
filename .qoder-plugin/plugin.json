@@ -1,0 +1,32 @@
+{
+  "name": "universe-agents",
+  "displayName": "宇宙智能体",
+  "version": "0.1.0",
+  "description": "18 人的虚拟交付团队：一句话派活，自动找到该干活的人；跨岗位的活自动会诊，最后由负责人拍板。含 15 项随包技能，不依赖外部安装。",
+  "author": {
+    "name": "幕景宇宙"
+  },
+  "keywords": ["qoder-plugin", "team", "agents", "delivery", "dispatch"],
+  "logo": "./assets/avatar512.png",
+  "skills": "./skills/",
+  "agents": [
+    "./agents/director.md",
+    "./agents/product.md",
+    "./agents/frontend-lead.md",
+    "./agents/backend-lead.md",
+    "./agents/backend-java.md",
+    "./agents/backend-python.md",
+    "./agents/backend-go.md",
+    "./agents/backend-dotnet.md",
+    "./agents/systems-cpp.md",
+    "./agents/frontend-react.md",
+    "./agents/frontend-vue.md",
+    "./agents/frontend-cross.md",
+    "./agents/ui.md",
+    "./agents/qa.md",
+    "./agents/ops.md",
+    "./agents/hardware-lead.md",
+    "./agents/hardware.md",
+    "./agents/embedded.md"
+  ]
+}
