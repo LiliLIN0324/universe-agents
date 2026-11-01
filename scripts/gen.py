@@ -107,6 +107,14 @@ def splice_block(text, block, where):
 def validate(seats):
     errs = []
     ids, names, triggers = set(), set(), {}
+    found = sorted(f[:-3] for f in os.listdir(AG_DIR) if f.endswith(".md"))
+    want = sorted(s["id"] for s in seats)
+    for rid in want:
+        if rid not in found:
+            errs.append("team.json 里的 %s 没有对应的 agents/%s.md" % (rid, rid))
+    for rid in found:
+        if rid not in want:
+            errs.append("agents/%s.md 不在 team.json 里，会跟着包一起装进去" % rid)
     for s in seats:
         for key in ("id", "name", "title", "core", "when", "tone"):
             if not s.get(key):

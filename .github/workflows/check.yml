@@ -1,0 +1,25 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  gen-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # team.json 是唯一事实源：18 份 frontmatter、两张表、manifest 都必须跟它一致，
+      # 触发词不能撞车，skills 指向的技能目录必须存在。
+      - name: team.json 与生成物一致
+        run: python scripts/gen.py --check
+
+      # 包能不能装：manifest 在顶层、角色数与声明一致、技能数对、README 里的包名与版本一致。
+      - name: 安装包结构
+        run: python scripts/pack.py --check
