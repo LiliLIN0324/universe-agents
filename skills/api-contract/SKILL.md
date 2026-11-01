@@ -1,6 +1,6 @@
 ---
 name: api-contract
-displayName: "接口契约"
+displayName: "宇宙智能体 · 接口契约"
 description: >-
   接口契约治理：先把 OpenAPI 写出来、再评审、再实现；管住破坏性变更、错误码、幂等与版本。
   当用户要设计接口、改现有接口、做前后端联调、要 mock、要定错误码时使用。
