@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Write diagrams that render inside documentation — sequence, state, ER, deployment, flow —
   with rules that keep them readable at document width.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 设计图

@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Run servers from first boot to incident: baseline hardening, monitoring that doesn't cry
   wolf, capacity calls, incident order of operations, and blameless review.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 线上运维

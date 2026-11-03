@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Turn one acceptance criterion into executable cases — normal, boundary, error, concurrent —
   each traceable back to the requirement it covers.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 用例设计

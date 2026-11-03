@@ -5,10 +5,15 @@ description: >-
   把一堆散落在文档、聊天、表格里的信息，做成一张能点、能筛、能展开的看板：
   项目全景、上线作战室、需求泳道、联调面板、风险清单。包含该放什么、怎么排、
   怎么保证数据是真的。
+  当用户要做项目全景、上线作战室、需求泳道、联调面板这类看板时使用。
   触发词：画布、看板、作战室、全景图、需求泳道、进度视图、联调面板、可视化面板。
 descriptionEn: >-
   Turn scattered docs, chats and sheets into one interactive board — project panorama,
   launch room, requirement swimlanes, integration panel — with real data and honest states.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 画布看板
