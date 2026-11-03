@@ -23,3 +23,8 @@ jobs:
       # 包能不能装：manifest 在顶层、角色数与声明一致、技能数对、README 里的包名与版本一致。
       - name: 安装包结构
         run: python scripts/pack.py --check
+
+      # 技能 frontmatter 是否符合 agentskills.io 开放规范：name / description / license / metadata
+      # 齐备，name 必须等于目录名，字符有上限，命名必须是小写连字符。不合规直接失败。
+      - name: 技能符合 agentskills.io 规范
+        run: python scripts/check_skills.py
