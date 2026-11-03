@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Wire the path from commit to production — build, artifact, environments, release strategy,
   rollback and verification — including how config and database changes travel with it.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 发布流水线

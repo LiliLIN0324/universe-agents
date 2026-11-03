@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Turn a vague request into something schedulable and verifiable: who does what, in which
   scenario, what is explicitly out of scope, and what counts as done.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 需求梳理

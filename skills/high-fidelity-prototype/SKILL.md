@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Build clickable HTML/CSS prototypes close enough to ship that spacing, type, color and
   component states are decided before implementation starts.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 可点原型

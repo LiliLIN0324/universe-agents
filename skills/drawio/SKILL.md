@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Produce editable .drawio sources that others can keep editing in draw.io or VS Code,
   for diagrams that live long and change often.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 可编辑图

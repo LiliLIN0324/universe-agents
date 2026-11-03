@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Ship a feature end to end: how to split interface from screen, where state lives,
   how errors travel, the order of integration, and what to check before committing.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 前后端工程

@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Set test strategy and release gates: what to test, how far, what blocks a release
   unconditionally, and how to scope regression.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 质量把关

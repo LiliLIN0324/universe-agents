@@ -10,6 +10,10 @@ description: >-
 descriptionEn: >-
   Join hardware and software: constraint-first selection, schematic review, firmware layering,
   device-to-server protocol design, and where integration actually starts.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 软硬联调

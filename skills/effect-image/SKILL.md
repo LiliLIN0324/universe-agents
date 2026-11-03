@@ -9,6 +9,11 @@ description: >-
 descriptionEn: >-
   Generate image assets for a project — product shots, scenes, avatars, covers — including
   prompt structure, sizing, file naming, and how to check the result before shipping.
+license: Apache-2.0
+compatibility: 需要宿主机提供图像生成能力（文生图 / 图生图）；没有图像生成工具时本技能无法完成。
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 图素材

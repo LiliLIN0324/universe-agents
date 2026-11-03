@@ -7,6 +7,10 @@ description: >-
   触发词：接口、API、OpenAPI、契约、联调、mock、错误码、版本兼容、破坏性变更、幂等。
 descriptionEn: >-
   API contract governance: design in OpenAPI first, review, then implement; manage breaking changes, error codes, idempotency and versions.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 接口契约

@@ -9,6 +9,10 @@ description: >-
 descriptionEn: >-
   Dispatch entry for the 18-person team: pick one primary owner, answer in that role's voice,
   and convene a short cross-role consultation only when the task truly spans roles; the lead then writes one decision.
+license: Apache-2.0
+metadata:
+  author: 幕景宇宙
+  version: 0.1.1
 ---
 
 # 派活
